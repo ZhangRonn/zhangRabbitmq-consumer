@@ -1,0 +1,11 @@
+server:
+  port: 8022
+spring:
+  application:
+    name: zhangRabbitmq-consumer
+  rabbitmq:
+    host: 192.168.200.129
+    port: 5672
+    username: root
+    password: root
+    virtual-host: /
